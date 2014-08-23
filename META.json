@@ -1,0 +1,71 @@
+{
+   "abstract" : "SSL cert util",
+   "author" : [
+      "Shoichi Kaji <skaji@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "SSL-Cert-Util",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "IO::Socket::SSL" : "0",
+            "Net::SSLeay" : "0",
+            "Sys::SigAction" : "0",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/shoichikaji/SSL-Cert-Util/issues"
+      },
+      "homepage" : "https://github.com/shoichikaji/SSL-Cert-Util",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/shoichikaji/SSL-Cert-Util.git",
+         "web" : "https://github.com/shoichikaji/SSL-Cert-Util"
+      }
+   },
+   "version" : "0.01",
+   "x_authority" : "cpan:SKAJI"
+}
